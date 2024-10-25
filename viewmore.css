@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+.head1{
+    width: 95%;
+    background-color: transparent;
+    height: 55px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px;
+    border: 2px solid white;
+    margin-bottom: 2px;
+    margin-left: 2%;
+    margin-right: 20%;
+    
+}
+.he{
+    color:orangered;
+    border: 1%;
+    font-family:monospace;
+    padding-left: 2%;
+    border-color: aqua;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size:xx-large;
+}
+.spr1{
+    background-color: transparent;
+    height: 390px;
+    width: 20%;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid white;
+}
+.row{
+    display:flex;
+    margin-left: 160px;
+
+}
+.main-cols{
+    background: orangered;
+    margin: 10px 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.main-cols figcaption{
+    background-color: orangered;
+    color: white;
+    margin-bottom: 8px;
+}
+.main-cols a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding-bottom: 5px;
+}
+.main-cols img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid orangered;
+
+}
+.main-cols:hover{
+    transform: scale(1.1);
+}
+
+
+.games p{
+    color:white;
+}
+.main-cols a:hover{
+    box-shadow: 0 0 20px;
+    background: rgb(20, 239, 20);
+    transition: 0.3s;
+}
+h1{
+    color: orangered;
+    text-align: center;
+    margin-bottom :20px;
+    font-size: 29px;
+
+    
+}
+.header{
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid orangered;
+    height: 55px;
+    box-shadow: 0 0 30px;
+    margin-bottom: 2%;
+}

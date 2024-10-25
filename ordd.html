@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="ordd.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Information</h1>
+        <form action="confirm.html" method="post" class="payment-form">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Gmail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+            <div class="form-group payment-method">
+                <label>Payment Method:</label>
+                <div class="card-option">
+                    <input type="radio" id="card1" name="payment-method" value="Visa" required>
+                    <label for="card1">Visa</label>
+                </div>
+                <div class="card-option">
+                    <input type="radio" id="card2" name="payment-method" value="MasterCard" required><label for="card2">MasterCard</label>
+
+                </div>
+            </div>
+            <a href="confirm.html">Buy Now</a>
+        </form>
+    </div>
+</body>
+</html>

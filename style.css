@@ -1,0 +1,96 @@
+*{
+    font-family:sans-serif;}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+    align-items: center;
+    margin-right: 100px;
+    background-color: black;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.mdiv{
+    background-color: red;
+    color: white;
+    width: 420px;
+    height: 340px;
+    border-radius: 12px;
+    padding: 30px 40px;
+    margin-left: 100px;
+}
+.mdiv h1{
+    text-align: center;
+    display: inline;
+    margin-left: 180px;
+    margin-bottom: 100px;
+}
+.mdiv .input-box{
+    width: 400px;
+    height: 48px;
+    margin-top: 20px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    position: relative;
+    font-size: 20px;
+    padding-left: 8px;
+    color: white;
+}
+.remember-forgot{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-bottom: 7px;
+
+}
+.input-box input::placeholder{
+    color: white;
+    margin-left: 50px;
+    padding-left: 10px;
+
+}
+.input-box i{
+    position:absolute;
+    right: 180px;
+    top: 32%;
+    transform: translate(100%);
+    font-size: x-large;
+
+}
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 10% white;
+}
+.register-here{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 8px;
+
+}
+.register-here a:hover{
+    text-decoration: underline;
+}

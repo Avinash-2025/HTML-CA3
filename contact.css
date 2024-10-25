@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: red;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(images/5588896.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 17px;
+    background-color: #222;
+    margin-top: 10%;
+    padding-left: 45px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #333;
+    color: red;
+}
+
+input:focus, textarea:focus {
+    border-color: red;
+    outline: none;
+}
+
+button {
+    background-color: red;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #d00;
+}

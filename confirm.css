@@ -1,0 +1,35 @@
+body {
+    background-color: #000; /* Black background */
+    color: #FF4500; /* Red text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #111;
+    border: 2px solid #FF4500;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.confirmation {
+    color: #FF4500;
+}
+
+.tick-mark {
+    font-size: 100px;
+    color: #00FF00; /* Green tick mark */
+}
+
+h1 {
+    color: #FF4500;
+}
+
+p {
+    color: #FF4500;
+}
